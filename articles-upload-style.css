@@ -1,0 +1,26 @@
+/* Articles Upload ------------------------------- */
+/* Author: Matthew Frankland --------------------- */
+
+.hp-upload-title {
+		text-align: center !important;
+		width: 20% !important;
+		vertical-align: middle !important;
+}
+
+.hp-row-title, .hp-row-body, .hp-row-time, hp-row-file, hp-row-membership {
+		padding-top: 0;
+		padding-bottom: 0;
+}
+
+.hp-table {
+		border-collapse: separate;
+		border-spacing: 1em;
+		margin: 10px;
+		border: solid black;
+		width: 100%;
+}
+
+.hp-text-area {
+	width: 100%;
+	height: 100%;
+}
