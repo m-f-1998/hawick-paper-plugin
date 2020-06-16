@@ -1,0 +1,92 @@
+/**
+* @author Matthew Frankland
+**/
+
+html {
+	min-width: 360px;
+}
+
+h1 {
+	padding-top: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+	.hp-table {
+		width: auto;
+		border-spacing: 0em;
+	}
+	.hp-upload-title {
+		display: none;
+	}
+	.hp-row-title, .hp-row-body, .hp-row-time, .hp-row-file, .hp-row-membership {
+		padding-right: 0px !important;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.hp-upload-title-small {
+		display: none;
+	}
+}
+
+.hp-upload-title {
+	text-align: center !important;
+	width: 20% !important;
+	vertical-align: middle !important;
+}
+
+.hp-upload-title-small {
+	text-align: center !important;
+	width: 100% !important;
+	vertical-align: middle !important;
+}
+
+.hp-row-title, .hp-row-body, .hp-row-time, .hp-row-file, .hp-row-membership {
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: 20px;
+}
+
+.hp-table {
+	border-collapse: separate;
+	border-spacing: 1em;
+	margin: 10px;
+	width: 98%;
+	border: solid black;
+}
+
+.hp-text-area {
+	width: 100%;
+	height: 350px;
+}
+
+.date-picker {
+	width: 100%;
+}
+
+.hp-input-text {
+	width:100%;
+	height: 30px;
+}
+
+.delete {
+	background-color: red;
+	border: white 2px;
+	color: white;
+	width: 20px;
+	height: 20px;
+	padding: 0;
+}
+
+#delete-icon {
+	width: 100%;
+	text-align: right;
+}
+
+#quantity {
+	margin-bottom: 20px;
+}
+
+#form-submit {
+	margin: 15px;
+}
