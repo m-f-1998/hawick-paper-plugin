@@ -1,6 +1,3 @@
-# Improvements Needed
+# Hawick Paper Plugin
 
-- Change Wordpress Editor As tinymce Is Very Slow To Load
-- Error & Success Logo/Div
-
-# Bugs Needing Fixed
+A plugin designed for a wordpress website. Made for a local newspaper to upload news and sport articles in bulk.
